@@ -21,8 +21,9 @@
 }
 .item{
     margin-right: 10px;
-    padding-right: 8px ;
+    padding: 20px ;
     font-size: 18px;
+    
 }
 .item:hover{
     background-color:red;
@@ -125,7 +126,8 @@
 }
 .service-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 90px;
     padding: 20px;
     height: 40vh;
     
@@ -136,6 +138,7 @@
 .services-png{
     background-image: url('photos/blackimg.jpg');
     padding: 40px 0 ;
+    
 }
 .last-footer{
     display: flex;
