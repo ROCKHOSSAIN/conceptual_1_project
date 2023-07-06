@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgba(59, 10, 27, 0.733);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+}
+.logo-photo{
+    width:200px;
+    padding: 10px;
+    
+}
+.item{
+    margin-right: 10px;
+    padding-right: 8px ;
+    font-size: 18px;
+}
+.item:hover{
+    background-color:red;
+    color: green;
+    cursor: pointer;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    background-image: url('back.jpg'),linear-gradient(45deg,#0f0a0a,#000)
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    
+
+}
+.title-2{
+    font-size: 40px;
+}
+.description{
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:row-reverse;
+    
+    
+}
+.about-title{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    color: white;
+    padding: 10px;
+    
+
+
+}
+.box{
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    
+
+}
+.box:hover{
+    box-shadow: 5px 5px 10px green;
+    transition: 0.5s;
+
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-btn:hover{
+    background-color: rgb(64, 37, 82);
+    cursor: pointer;
+}
+.btn{
+    transition: transform 1s;
+}
+.btn:hover{
+    background-color: rgb(48, 129, 129);
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 10px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    height: 40vh;
+    
+}
+.img-1{
+    width: 600px;
+}
+.services-png{
+    background-image: url('blackimg.jpg');
+}
+.last-footer{
+    display: flex;
+    justify-content: space-around;
+    background-image:url('back.jpg'),linear-gradient(45deg,#0f0a0a,#000) ;
+    color: white;
+    height: 25vh;
+}
+.footerlist{
+    margin: 12px;
+    list-style: none;
+    font-size: 19px;
+    margin-top: 20px;
+}
+h3{
+    margin:10px 10px;
+    font-size: 22px;
+    
+}
+.light-png{
+    width: 200px;
+    margin-bottom: 10px;
+}
