@@ -28,6 +28,7 @@
     background-color:red;
     color: green;
     cursor: pointer;
+    
 }
 .banner-img{
     width: 300px;
@@ -38,7 +39,7 @@
     height: 100vh;
     align-items: center;
     color: white;
-    background-image: url('back.jpg'),linear-gradient(45deg,#0f0a0a,#000)
+    background-image: url('photos/back.jpg'),linear-gradient(45deg,#0f0a0a,#000)
 }
 .title{
     font-size: 55px;
@@ -71,10 +72,11 @@
 }
 .about-title{
     text-align: center;
-    margin-top: 10px;
+    /* margin-top: 30px; */
     margin-bottom: 60px;
-    color: white;
-    padding: 10px;
+    color: rgba(207, 50, 50, 0.692);
+    /* padding: 10px; */
+    padding-top:100px;
     
 
 
@@ -132,12 +134,13 @@
     width: 600px;
 }
 .services-png{
-    background-image: url('blackimg.jpg');
+    background-image: url('photos/blackimg.jpg');
+    padding: 40px 0 ;
 }
 .last-footer{
     display: flex;
     justify-content: space-around;
-    background-image:url('back.jpg'),linear-gradient(45deg,#0f0a0a,#000) ;
+    background-image:url('photos/back.jpg'),linear-gradient(45deg,#0f0a0a,#000) ;
     color: white;
     height: 25vh;
 }
